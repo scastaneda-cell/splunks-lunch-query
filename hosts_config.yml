@@ -1,0 +1,23 @@
+instances:
+  - name: ficosa                    # Nombre único del cliente
+    host: ficosa.splunkcloud.com    # Hostname de Splunk
+    port: 8089                       # Puerto (default: 8089)
+    scheme: https                    # Protocolo (https/http)
+    auth_type: splunk                # Tipo: splunk o bearer
+    token: eyJra..
+    verify: true                     # Verificar SSL (true/false)
+    app: search                      # App de Splunk
+    owner: admin                     # Owner del context
+
+  - name: es_caib                    # Nombre único del cliente
+    host: es.caib.splunkcloud.com    # Hostname de Splunk
+    port: 8089                       # Puerto (default: 8089)
+    scheme: https                    # Protocolo (https/http)
+    auth_type: splunk                # Tipo: splunk o bearer
+    token: eyJra...
+    verify: true                     # Verificar SSL (true/false)
+    app: search                      # App de Splunk
+    owner: admin                     # Owner del context
+    .
+    .
+    .
