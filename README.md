@@ -341,4 +341,4 @@ Este script es de uso interno. Consulta con tu organización sobre políticas de
 ---
 
 **Versión:** 1.0.0  
-**Última actualización:** Diciembre 2024
+**Última actualización:** Diciembre 2025
