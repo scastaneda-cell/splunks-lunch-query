@@ -1,0 +1,8 @@
+[
+  {
+    "title": "CU-TEMPORAL Unusual activity from suspected hosts",
+    "description": "",
+    "search": "index=windows signature=* \"C07S14\" OR \"WIN-NP17C2HUTL5\" \n| stats c dc(user) by src_nt_host",
+    "disabled": "1"
+  }
+]

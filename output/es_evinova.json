@@ -1,0 +1,14 @@
+[
+  {
+    "title": "CU-TEMPORAL-001 Detection of Malicious IP",
+    "description": "Detección de una IP maliciosa",
+    "search": "index=\"aws\" \"206.237.3.150\" OR \"45.77.33.136\" OR \"143.198.92.82\" OR \"183.6.80.214\" OR \"119.45.243.43\" OR \"169.254.169.254\" OR \"224.0.0.251\" OR \"38.60.221.174\"",
+    "disabled": "0"
+  },
+  {
+    "title": "CU-TEMPORAL-002 Detection of Malicious HASH",
+    "description": "Detección de un HASH malicioso",
+    "search": "index=\"aws\" \"3506f500df3ac773a242292b7e34b873\" OR \"0ac9f74b878f638a4717af69f0a63b97505683e0\" OR \"cee2316436a5d819cb33acc58dcb80e130fd058a2bde4bbc9c46ce609446b82c\"",
+    "disabled": "0"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "CU-TEMPORAL-001 User LoggedIn from Malicious IP",
+    "description": "Inicio de sesión de usuario des de una IP detectada como maliciosa",
+    "search": "index=mo365 sourcetype=\"o365:management:activity\" Operation=UserLoggedIn \"64.225.63.137\" OR \"196.196.53.58\" \n| search NOT ( \n    [| inputlookup listado_temporal_phishing.csv \n    | stats values(user) as user \n    | format])",
+    "disabled": "1"
+  },
+  {
+    "title": "CU-TEMPORAL-002 User LoggedIn from IP outside Spain",
+    "description": "Inicio de sesión de usuario des de una IP fuera de España",
+    "search": "`o365_management_activity` Workload=AzureActiveDirectory Operation=UserLoggedIn \n| bucket span=5m _time \n| iplocation src_ip\n| where Country!=\"Spain\"\n| stats count values(user) as user values(Country) as country values(signature) as signature values(UserAgent) as user_agent values(RequestType) as RequestType  min(_time) as firstTime, max(_time) as lastTime values(SessionId) by _time src_ip",
+    "disabled": "1"
+  }
+]

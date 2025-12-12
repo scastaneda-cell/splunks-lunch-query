@@ -1,0 +1,8 @@
+[
+  {
+    "title": "CU-TEMPORAL-002 User LoggedIn from IP outside Spain",
+    "description": "Llamar a la guardia",
+    "search": "`o365_management_activity` Workload=AzureActiveDirectory Operation=UserLoggedIn user!=\"*pwc*\" src_ip!=\"134.238.10*\"\n| bucket span=5m _time \n| iplocation src_ip\n| where Country!=\"Spain\"\n| stats count values(user) as user values(Country) as country values(signature) as signature values(UserAgent) as user_agent values(RequestType) as RequestType  min(_time) as firstTime, max(_time) as lastTime values(SessionId) by _time src_ip",
+    "disabled": "1"
+  }
+]

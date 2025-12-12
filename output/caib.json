@@ -1,0 +1,46 @@
+[
+  {
+    "host": "idx-i-0532ac34da8236fd5.caib.splunkcloud.com",
+    "count": "2343956"
+  },
+  {
+    "host": "sadwnt1",
+    "count": "90931"
+  },
+  {
+    "host": "sadwnt3",
+    "count": "82203"
+  },
+  {
+    "host": "sh-i-04c594c0ca24ca6bb.caib.splunkcloud.com",
+    "count": "5924750"
+  },
+  {
+    "host": "sh-i-0a4e7630abb02497c.caib.splunkcloud.com",
+    "count": "11371932"
+  },
+  {
+    "host": "c0m1-i-0d61e2af8ee54613a.caib.splunkcloud.com",
+    "count": "1121904"
+  },
+  {
+    "host": "idx-i-0a687b712d5ac81d5.caib.splunkcloud.com",
+    "count": "2375600"
+  },
+  {
+    "host": "sadwnt2",
+    "count": "91182"
+  },
+  {
+    "host": "sadwnt4",
+    "count": "82836"
+  },
+  {
+    "host": "sh-i-00d585c0c4a7949e2.caib.splunkcloud.com",
+    "count": "3498180"
+  },
+  {
+    "host": "ssegsiemshf1.caib.es",
+    "count": "1648451"
+  }
+]

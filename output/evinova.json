@@ -1,0 +1,26 @@
+[
+  {
+    "host": "c0m1-i-025db1f2f5f99cc1e.evinova.splunkcloud.com",
+    "count": "1436333"
+  },
+  {
+    "host": "idx-i-00c690c730c77f773.evinova.splunkcloud.com",
+    "count": "2507306"
+  },
+  {
+    "host": "sh-i-0543d11846406dafd.evinova.splunkcloud.com",
+    "count": "5175894"
+  },
+  {
+    "host": "idx-i-03aa5ec582b1b57c9.evinova.splunkcloud.com",
+    "count": "2477071"
+  },
+  {
+    "host": "idx-i-0a4731882bcb5cdab.evinova.splunkcloud.com",
+    "count": "2470168"
+  },
+  {
+    "host": "sh-i-0dcc60fb751f280a2.evinova.splunkcloud.com",
+    "count": "5092940"
+  }
+]
